@@ -1,0 +1,478 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 32px;
+	color: white;
+	overflow: hidden;
+	
+}
+header {
+       width: 100%;
+    font-size: 42px;
+    background: linear-gradient(#150924, #130921);
+    height: 119px;
+    position: fixed;
+    z-index: 2;
+    padding: 18px 8px 0px 18px;
+    box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+    top :0;
+}
+
+header img {
+    height: 55px;
+    margin-top: 14px;
+}
+
+header nav {
+    font-size: 32px;
+    color: white;
+    float: right;
+}
+
+.nav_button{
+	 background: none;
+	 border: none;
+	 outline: none;
+	 color: white;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 18px 18px;
+    border-radius: 50%;
+    background-color: #291b3c;
+    margin-right: 10px;
+}
+.viewBorder{
+	 border-left: 3px solid #FF8400;
+}
+#fa-user , #fa-wifi , #fa-bell{
+	width: 50px;
+    height: 40px;
+    text-align: center;
+}
+header nav ul li:nth-child(2) {
+    position: relative;
+}
+
+ #badge{
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    border-radius: 50%;
+    background: red;
+    font-size: 21px;
+   } 
+   
+.user_name{
+	 position: relative;
+      right: 5px;
+}
+  
+
+header nav ul li:hover {
+    display: inline-block;
+    padding: 18px 18px;
+    color: rgba(255, 132, 0, 1)
+}
+
+.main_section{
+	position: relative;
+    background: #12091E;
+    margin-top: 119px;
+    height: 100vh;
+}
+.left_nav_item{
+	font-size: 27px;
+	
+}
+.setting_text{
+	font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    right: 22px;
+}
+.profile_Img{    
+	height: 81px !important;
+    border-radius: 50%;
+    border: 4px solid #5e5b69;
+    width: 81px;
+	
+}
+.d-flex h3{
+	font-size: 35px !important;
+}
+#email{
+	font-weight: bold;
+}
+#phone{
+	font-weight: bold;
+}
+hr{
+	background: gray;
+    height: .5px;
+    margin-left: 25px;
+}
+
+
+
+
+
+/*Subscription Style*/
+
+.free_monthly_subs{
+	font-weight: bold;
+	
+}
+.card{
+	 border-radius: .75rem !importat;
+	 background: #413a4b;
+}
+.ml-5, .mx-5 {
+    margin-left: 6rem!important;
+}
+.device_total{
+    position: relative;
+    left: 6%;
+}
+.buyBtn {
+    color: white;
+    width: 285px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: #FF8400;
+    font-size: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.unActive_card{
+	background: #292929
+}
+.info{
+	position: relative;
+    top: 116px;
+    font-size: 24px;
+}
+.website{
+    position: relative;
+    top: 89px;
+    font-weight: bold;
+    font-size: 53px;
+}
+.find_help{
+	font-size: 48px;
+    font-weight: bold;
+}
+.fa-question-circle{
+	 font-size: 132px;
+}
+hr{
+	background: gray;
+    height: .5px;
+    margin-left: 25px;
+}
+#email{
+	font-weight: bold;
+    font-size: 28px;
+}
+#phone{
+	font-weight: bold;
+    font-size: 28px;
+}
+.email_text{
+	font-size: 26px;
+}
+
+/ style for error screen /
+.error_msg{
+    position: absolute;
+    top: 27%;
+    text-align: center;
+    left: 17%;
+    font-weight: bold;
+    font-size: 54px;
+}
+.detail_btn {
+    color: white;
+    width: 285px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: #FF8400;
+    font-size: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.try_btn {
+    color: white;
+    width: 285px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: #413a4b;
+    font-size: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn_position{
+	position: absolute;
+    top: 47%;
+    text-align: center;
+    left: 34%;
+}
+
+
+
+
+
+
+/*Notification syle*/
+
+.sidenav {
+right: 0px;
+position: fixed;
+right: 0;
+top: 124px;
+z-index: 5;
+height: 100%;
+width: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.4s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.notification_header {
+color: white;
+font-weight: 509px;
+background: #160926;
+width: 100%;
+display: flex;
+align-items: center;
+padding-left: 2px;
+font-size: 34px;
+font-weight: 700;
+box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+height: 112px;
+z-index: 12;
+}
+
+.no_notification {
+color: white;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 151px;
+background: #12091E;
+}
+
+h2 {
+position: absolute;
+font-size: 31px;
+}
+
+.fa_bell {
+position: relative;
+top: -22%;
+background: gray;
+border-radius: 50%;
+height: 209px;
+width: 209px;
+text-align: center;
+margin-top: 4px;
+font-size: 145px;
+}
+
+.fa-arrow-left:hover {
+color: rgba(255, 132, 0, 1);
+}
+
+.no-notification {
+position: relative;
+bottom: 16%;
+}
+
+
+/*Network and internet section style*/
+
+.network_header {
+color: white;
+font-weight: 509px;
+background: #160926;
+width: 100%;
+display: flex;
+align-items: center;
+padding-left: 2px;
+font-size: 34px;
+font-weight: 700;
+box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+height: 112px;
+z-index: 12;
+}
+
+.avail_network {
+font-weight: bold;
+font-size: 25px;
+color: rgba(255, 132, 0, 1);
+padding: 31px;
+background: #12091E;
+}
+
+.avail_network_body {
+height: 100vh;
+background: #12091E;
+color: white;
+font-size: px;
+font-size: 26px;
+}
+
+.wifi_icon {
+font-size: 34px;
+}
+
+.wifi_name {
+font-size: 27px;
+position: relative;
+top: -7px;
+}
+
+.conented_wifi_txt {
+font-size: 21px;
+position: absolute;
+left: 2%;
+}
+
+.lock_icon {
+color: white;
+}
+
+
+
+@keyframes ldio-eon67kjyqwt {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.ldio-eon67kjyqwt div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  animation: ldio-eon67kjyqwt linear 1s infinite;
+  background: #82777a;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+}.ldio-eon67kjyqwt div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #82777a;
+}.ldio-eon67kjyqwt div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #82777a;
+}
+.loadingio-spinner-spinner-rexyx9adxl {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+    position: absolute;
+    left: 29%;
+    top: 41%;
+    margin: 0 auto;
+    right: 0;
+    z-index: 2;
+}
+.ldio-eon67kjyqwt {
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; / see note above /
+}
+.ldio-eon67kjyqwt div {
+	box-sizing: content-box; 
+	}
+	
+	.spinner{
+    position: absolute;
+    left: 58%;
+    top: 33%;
+    }
+    
+.hideLoader{
+    display: none;
+    }
+    
+ .showLoader{
+    display: block;
+    }
+    
+.parent_right_section{
+	display: none;
+}
+.unsubscribedUser{
+	position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+
+body {
+    overflow: hidden;
+}
+
+
+
+.video-js .vjs-time-control {
+    font-size: 34px !important;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.container-fluid {
+    position: relative;
+    bottom: 151px;
+}
+
+
+
+.video-js .vjs-time-control {
+    display: block;
+}
+
+.vjs-duration .vjs-time-control .vjs-control{
+	display: none !important;
+}
+
+.vjs-current-time .vjs-time-control .vjs-control{
+	font-size: 36px !important;
+    color: white !important;
+}
+
+.documentry {
+    position: relative;
+    bottom: 320px;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 53px;
+    font-weight: bold;
+}
+ .video-js .vjs-time-control{
+ font-size: 34px !important;
+ display:block;
+ }
+ .video-js .vjs-remaining-time{
+  display: none !important;
+ }
+
+
+ .text_div {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        color: red;
+        font-size: 33px;
+    }
+    .text_documentry {
+        position: absolute;
+        bottom: 20%;
+        left: 2%;
+        color: ;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .text_div {
+        position: absolute;
+        left: 2%;
+        font-size: 33px;
+        color: white;
+        font-weight: bold;
+        font-size: 54px;
+        top: 75%;
+    }
+    .text_view {
+        position: absolute;
+        left: 14%;
+        font-size: 33px;
+        color: white;
+        font-weight: bold;
+        font-size: 26px;
+        bottom: 28%;
+    }
+    .text_documentry {
+        position: absolute;
+        bottom: 28%;
+        left: 2%;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+    }

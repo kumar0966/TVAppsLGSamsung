@@ -1,0 +1,30 @@
+* {
+    font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    
+}
+
+.bgImage{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: .2;
+	
+}
+.logoImage{
+	position: absolute;
+	top: 40%;
+	left: 40%
+}
+.heading{
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	color: white;
+	font-weight: bold !important;
+	text-align: center;
+	font-size: 54px;
+	
+}
